@@ -10,6 +10,7 @@ import { MaterialDetailPage, SnapdragonPage, MaterialPage, UploadMaterialPage } 
 import { PublishPage, ProfilePage, OtherUserProfilePage } from './pages5';
 
 const HomeAnchorNav = () => {
+  // Navigation component for scroll spy
   const [active, setActive] = useState('section-hero');
   const [isVisible, setIsVisible] = useState(false);
 
